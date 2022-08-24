@@ -1,0 +1,2 @@
+<?php 
+print substr(str_shuffle(str_repeat($x='abcdefghijklmnopqrstuvwxyz', ceil(16/strlen($x)) )),1,16);

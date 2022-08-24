@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                   xmlns:ns1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+                   xmlns:ns2="http://schemas.datacontract.org/2004/07/TdnBo" xmlns:ns3="http://tempuri.org/">
+    <SOAP-ENV:Body>
+        <ns3:IQAQueryWithParameters>
+            <ns3:iqaQueryRequest>
+                <ns2:Parameters>
+                    <ns1:KeyValueOfintstring>
+                        <ns1:Key>0</ns1:Key>
+                        <ns1:Value>Kedron</ns1:Value>
+                    </ns1:KeyValueOfintstring>
+                </ns2:Parameters>
+                <ns2:QueryLocation>$/ContactManagement/DefaultSystem/Queries/Advanced/Contact/WEB/WEB_List_of_Practice
+                </ns2:QueryLocation>
+            </ns3:iqaQueryRequest>
+        </ns3:IQAQueryWithParameters>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

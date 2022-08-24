@@ -1,0 +1,9 @@
+{
+    "name": "ampco/compass_wrapper",
+    "version": "dev-master",
+    "autoload": {
+        "psr-4": {
+            "CompassWrapper\\": "src/"
+        }
+    }
+}
